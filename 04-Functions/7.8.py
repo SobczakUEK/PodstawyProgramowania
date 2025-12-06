@@ -5,7 +5,7 @@ def f(amount_to_pay):
     
     for coin in coins:
         count += remaining // coin
-        remaining %- coin
+        remaining %= coin
         
     return count
 
